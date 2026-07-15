@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs><radialGradient id="r"><stop stop-color="#8df7ff"/><stop offset=".35" stop-color="#1aaed1"/><stop offset="1" stop-color="#071827"/></radialGradient></defs>
+<rect width="1200" height="700" fill="#071827"/><g fill="url(#r)">
+<circle cx="300" cy="220" r="90"/><circle cx="600" cy="220" r="65"/><circle cx="870" cy="220" r="42"/>
+<circle cx="360" cy="440" r="55"/><circle cx="640" cy="440" r="35"/><circle cx="900" cy="440" r="24"/></g>
+<text x="600" y="625" text-anchor="middle" fill="#dffcff" font-family="Arial" font-weight="700" font-size="42">GaN Micro-LED Research &amp; Layout</text></svg>

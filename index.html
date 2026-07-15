@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="William Ferros engineering portfolio: electronics, PCB design, VLSI, MEMS, embedded systems, and technical leadership.">
+  <title>William Ferros | Engineering Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">WF<span>.</span></a>
+    <nav aria-label="Primary navigation">
+      <a href="#school">School Projects</a>
+      <a href="#pcb">PCB Designs</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Electrical & Computer Engineering</p>
+        <h1>William Ferros</h1>
+        <p class="hero-text">I design electronic systems from device physics and custom CMOS through PCB layout, embedded control, power architecture, and electromechanical integration.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore projects</a>
+          <a class="button ghost" href="mailto:ferros.w@northeastern.edu">Email me</a>
+        </div>
+      </div>
+      <div class="hero-panel" aria-label="Areas of expertise">
+        <p>Core focus</p>
+        <div class="skill-cloud">
+          <span>PCB Design</span><span>Power Electronics</span><span>VLSI</span>
+          <span>MEMS</span><span>Embedded Systems</span><span>RF</span>
+          <span>Motor Control</span><span>Semiconductor Devices</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Portfolio summary">
+      <div><strong>6+</strong><span>school projects</span></div>
+      <div><strong>4</strong><span>personally designed PCB systems</span></div>
+      <div><strong>3</strong><span>design-leadership projects</span></div>
+      <div><strong>KiCad · Cadence · Python</strong><span>cross-domain toolset</span></div>
+    </section>
+
+    <section id="projects" class="intro">
+      <p class="eyebrow">Selected work</p>
+      <h2>Projects organized by how I contributed</h2>
+      <p>The portfolio separates academic engineering, boards I personally designed, and projects where I managed development, reviewed designs, and made technical changes.</p>
+    </section>
+
+    <section id="school" class="project-section">
+      <div class="section-heading">
+        <div><p class="eyebrow">01</p><h2>School Projects</h2></div>
+        <p>Multidisciplinary academic work spanning computer vision, electromechanical systems, electronic materials, MEMS, VLSI, photonics, and aquaculture hardware.</p>
+      </div>
+      <div class="project-grid">
+        <article class="card featured">
+          <img src="assets/images/courtiq-poster.jpg" alt="CourtIQ project poster">
+          <div class="card-body">
+            <div class="tags"><span>Capstone</span><span>Computer Vision</span><span>Motor Control</span></div>
+            <h3>CourtIQ — Intelligent Basketball Training System</h3>
+            <p>A responsive basketball passing machine that uses YOLOv8 pose estimation, player tracking, distance estimation, and real-time motor control to deliver passes to a moving player.</p>
+            <p class="contribution"><strong>Contribution:</strong> electrical and power architecture, motor-control integration, mechanical development, system testing, and documentation.</p>
+            <div class="links">
+              <a href="school-projects/courtiq/CourtIQ-Final-Report.pdf">Final report</a>
+              <a href="school-projects/courtiq/CourtIQ-Poster.pdf">Poster</a>
+              <a href="school-projects/courtiq/CourtIQ-Presentation-Link.pdf">Presentation link</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/mems.jpg" alt="MEMS antenna tuning report cover">
+          <div class="card-body">
+            <div class="tags"><span>MEMS</span><span>RF</span><span>Device Modeling</span></div>
+            <h3>Comb-Drive MEMS Varactor</h3>
+            <p>Designed and modeled a silicon MEMS variable capacitor for adaptive smartphone antenna tuning, including electrostatic actuation, spring dynamics, RF loss, fabrication, and packaging.</p>
+            <div class="links"><a href="school-projects/mems-varactor/MEMS-Antenna-Tuning-Final-Report.pdf">View report</a></div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/vlsi.jpg" alt="32-bit CMOS ALU report cover">
+          <div class="card-body">
+            <div class="tags"><span>VLSI</span><span>45 nm CMOS</span><span>Cadence</span></div>
+            <h3>32-Bit CMOS Arithmetic Logic Unit</h3>
+            <p>Implemented a high-speed ALU architecture with a Kogge–Stone adder, static-CMOS logic unit, staged barrel shifter, control logic, and logical-effort-based transistor sizing.</p>
+            <div class="links"><a href="school-projects/vlsi-alu/32-Bit-CMOS-ALU-Final-Report.pdf">View report</a></div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/memristor.jpg" alt="Memristor report cover">
+          <div class="card-body">
+            <div class="tags"><span>Electronic Materials</span><span>Memory</span><span>Neuromorphic</span></div>
+            <h3>Memristor — The Fourth Passive Component</h3>
+            <p>Analyzed memristor physics, electrode and switching materials, mathematical models, CMOS integration, nonvolatile memory, and neuromorphic-computing applications.</p>
+            <div class="links"><a href="school-projects/memristor/Memristor-Final-Report.pdf">View report</a></div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/microled.svg" alt="Abstract representation of GaN micro-LEDs">
+          <div class="card-body">
+            <div class="tags"><span>Photonics</span><span>GaN</span><span>GDS</span></div>
+            <h3>GaN Micro-LED Size-Dependent Behavior</h3>
+            <p>Studied scaling effects in GaN micro-LEDs under ultrafast current injection and developed project materials including a presentation, Python workflow, and GDS test structure.</p>
+            <div class="links"><a href="school-projects/gan-microled/GaN-MicroLED-Project-Files.zip">Download project</a></div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/wavewise.jpg" alt="WaveWise project report cover">
+          <div class="card-body">
+            <div class="tags"><span>Aquaculture</span><span>Sensors</span><span>Cloud Hardware</span></div>
+            <h3>WaveWise Autonomous Aquaculture Platform</h3>
+            <p>Developed hardware for a buoy-and-submersible platform that controls farm depth and remotely monitors environmental conditions for kelp and oyster cultivation.</p>
+            <div class="links"><a href="school-projects/wavewise/WaveWise-Final-Report.pdf">View report</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="pcb" class="project-section">
+      <div class="section-heading">
+        <div><p class="eyebrow">02</p><h2>Personally Designed PCBs</h2></div>
+        <p>Boards for which I personally worked through schematic capture and PCB layout. Downloadable KiCad source files are included for direct review.</p>
+      </div>
+      <div class="project-grid compact">
+        <article class="card">
+          <img src="assets/images/pcb.svg" alt="Stylized PCB illustration">
+          <div class="card-body">
+            <div class="tags"><span>First PCB</span><span>KiCad</span><span>Automation</span></div>
+            <h3>Hot Date Kitchen — Hybrid Design PCB</h3>
+            <p>My first PCB, created for an automatic date-slicing system. The layout is intentionally presented as an early-career design artifact that demonstrates where my PCB-design progression began.</p>
+            <div class="links">
+              <a href="pcb-designs/hot-date-kitchen/Hot-Date-Kitchen-Hybrid-Design.kicad_sch">Schematic</a>
+              <a href="pcb-designs/hot-date-kitchen/Hot-Date-Kitchen-Hybrid-Design.kicad_pcb">PCB</a>
+              <a href="pcb-designs/hot-date-kitchen/Hot-Date-Kitchen-Hybrid-Design.kicad_pro">Project</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/pcb.svg" alt="Stylized PCB illustration">
+          <div class="card-body">
+            <div class="tags"><span>Marine Electronics</span><span>KiCad</span></div>
+            <h3>WaveWise Buoy Controller</h3>
+            <p>Control and interface board for the surface buoy subsystem of the WaveWise aquaculture platform.</p>
+            <div class="links">
+              <a href="pcb-designs/wavewise-buoy/WaveWise-Buoy.kicad_sch">Schematic</a>
+              <a href="pcb-designs/wavewise-buoy/WaveWise-Buoy.kicad_pcb">PCB</a>
+              <a href="pcb-designs/wavewise-buoy/WaveWise-Buoy.kicad_pro">Project</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/pcb.svg" alt="Stylized PCB illustration">
+          <div class="card-body">
+            <div class="tags"><span>Power Management</span><span>KiCad</span></div>
+            <h3>WaveWise PMIC Board</h3>
+            <p>Power-management and distribution design supporting the platform’s embedded electronics and sensor subsystems.</p>
+            <div class="links">
+              <a href="pcb-designs/wavewise-pmic/WaveWise-PMIC.kicad_sch">Schematic</a>
+              <a href="pcb-designs/wavewise-pmic/WaveWise-PMIC.kicad_pcb">PCB</a>
+              <a href="pcb-designs/wavewise-pmic/WaveWise-PMIC.kicad_pro">Project</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/pcb.svg" alt="Stylized PCB illustration">
+          <div class="card-body">
+            <div class="tags"><span>Sensor Interface</span><span>Submersible</span></div>
+            <h3>WaveWise Submersible Controller</h3>
+            <p>Embedded interface board for underwater sensors, actuation, and communications within the submersible unit.</p>
+            <div class="links">
+              <a href="pcb-designs/wavewise-submersible/WaveWise-Submersible.kicad_sch">Schematic</a>
+              <a href="pcb-designs/wavewise-submersible/WaveWise-Submersible.kicad_pcb">PCB</a>
+              <a href="pcb-designs/wavewise-submersible/WaveWise-Submersible.kicad_pro">Project</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="leadership" class="project-section">
+      <div class="section-heading">
+        <div><p class="eyebrow">03</p><h2>Engineering Leadership & Design Management</h2></div>
+        <p>Projects where I managed development, assisted designers, reviewed and edited technical work, and helped move systems from concept toward implementation.</p>
+      </div>
+      <div class="project-grid compact">
+        <article class="card featured">
+          <img src="assets/images/leadership.svg" alt="Engineering leadership network illustration">
+          <div class="card-body">
+            <div class="tags"><span>Design Lead</span><span>PCB Review</span><span>System Architecture</span></div>
+            <h3>Fitolux — Automatic Supplement Measurement & Dispensing</h3>
+            <p>Managed electrical development for an automatic supplement-dosing system. I reviewed the architecture, made schematic and PCB edits, assisted designers with implementation, and supported technical decision-making across revisions.</p>
+            <div class="links">
+              <a href="leadership-projects/fitolux/Fitolux-Main.kicad_sch">Main schematic</a>
+              <a href="leadership-projects/fitolux/Fitolux-Main.kicad_pcb">Main PCB</a>
+              <a href="leadership-projects/fitolux/Fitolux-Main.kicad_pro">Main project</a>
+              <a href="leadership-projects/fitolux/Fitolux-Baseline-Design.zip">Baseline package</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/leadership.svg" alt="Engineering leadership network illustration">
+          <div class="card-body">
+            <div class="tags"><span>Managed Development</span><span>Design Edits</span></div>
+            <h3>Novel Mechanism 1 Board</h3>
+            <p>Supported board development through technical guidance, design review, hands-on edits, and integration assistance.</p>
+            <div class="links">
+              <a href="leadership-projects/novel-mechanism/Novel-Mechanism-1-Board.kicad_sch">Schematic</a>
+              <a href="leadership-projects/novel-mechanism/Novel-Mechanism-1-Board.kicad_pcb">PCB</a>
+              <a href="leadership-projects/novel-mechanism/Novel-Mechanism-1-Board.kicad_pro">Project</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/leadership.svg" alt="Engineering leadership network illustration">
+          <div class="card-body">
+            <div class="tags"><span>Design Oversight</span><span>Electromechanical</span></div>
+            <h3>Tube Bender PCB System</h3>
+            <p>Assisted development and design management for an electromechanical tube-bending controller with motor, sensor, power, control, and user-interface subsystems.</p>
+            <div class="links"><a href="leadership-projects/tube-bender/Tube-Bender-PCB-Project.zip">Download project</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <p class="eyebrow">Contact</p>
+      <h2>Let’s build something that works in the real world.</h2>
+      <p>Interested in electronics, semiconductor, embedded, power, or hardware-development opportunities.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="mailto:ferros.w@northeastern.edu">ferros.w@northeastern.edu</a>
+        <a class="button ghost" href="https://github.com/williamferros">GitHub profile</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 William Ferros</span>
+    <span>Built as a static GitHub Pages portfolio.</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#15152c"/><stop offset="1" stop-color="#34204c"/></linearGradient></defs>
+<rect width="1200" height="700" fill="url(#g)"/><g fill="none" stroke="#bfa7ff" stroke-width="12"><circle cx="600" cy="250" r="105"/><circle cx="310" cy="430" r="75"/><circle cx="890" cy="430" r="75"/><path d="M530 330L370 390M670 330L830 390M385 490H815"/></g>
+<g fill="#f4efff"><circle cx="600" cy="250" r="43"/><circle cx="310" cy="430" r="30"/><circle cx="890" cy="430" r="30"/></g>
+<text x="600" y="620" text-anchor="middle" fill="#f4efff" font-family="Arial" font-weight="700" font-size="44">Engineering Leadership</text></svg>
